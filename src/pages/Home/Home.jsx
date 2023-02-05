@@ -1,9 +1,8 @@
 import React from 'react';
 import '../../style/Home/home.css'
 import Header from '../../components/Header/Header'
-
 import Footer from '../../components/Footer/Footer'
-import LogementCard from '../../components/card/LogementCard'
+import LogementCard from '../../components/LogementCard'
 import Banner from '../../components/Banner'
 
 export default function Home() {

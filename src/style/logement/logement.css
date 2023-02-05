@@ -1,0 +1,12 @@
+.header-logement{
+    color: #FF6060;
+}
+
+.logement_title{
+    font-size: 36px;
+    font-weight: 500;
+}
+.logement_location{
+    font-size: 18px;
+    margin-bottom: 20px;
+}

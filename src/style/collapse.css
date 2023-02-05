@@ -1,0 +1,44 @@
+.collapse {
+    margin: auto;
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 33px;
+  }
+  
+  .collapse-header {
+    align-items: center;
+    background-color: #ff6060;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    min-height: 50px;
+    width: 100%;
+  }
+  
+  .collapse-header_title {
+    color: #ffffff;
+    margin: 5px 10px;
+  }
+  
+  .fleche-collapse {
+    margin-right: 30px;
+    
+  }
+  .fleche-collapse:hover {
+      cursor: pointer;
+  }
+  
+  .fleche-collapse.true {
+    transform: rotate(-180deg);
+  }
+  
+  .collapse_description {
+    background-color: #f6f6f6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ff6060;
+    height: auto;
+    padding: 20px;
+    
+  }

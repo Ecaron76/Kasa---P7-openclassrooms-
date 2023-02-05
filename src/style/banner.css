@@ -1,0 +1,28 @@
+.background_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.background-img{
+    border-radius: 25px;
+    max-width: 100%;
+    filter: brightness(60%);
+    
+}
+.background-title{
+    z-index: 10;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 142.6%;
+    color: #FFFFFF;
+    
+    
+}

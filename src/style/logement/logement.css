@@ -1,5 +1,9 @@
 .header-logement{
+    margin-top: 30px;
     color: #FF6060;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .logement_title{
@@ -10,3 +14,22 @@
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+.header-logement_right{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    height: 100%;
+    align-self: center;
+}
+
+.description-equipements{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+

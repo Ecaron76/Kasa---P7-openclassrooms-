@@ -9,10 +9,12 @@ export default function Home() {
     return(
         <React.Fragment>
             <Header />
-            <Banner src="images/bannerHome.png" text="Chez vous, partout, et ailleurs"/>
-            <div className='container_cards'>
-                <LogementCard />
-            </div>
+            <main>
+                <Banner src="images/bannerHome.png" text="Chez vous, partout, et ailleurs"/>
+                <div className='container_cards'>
+                    <LogementCard />
+                </div>
+            </main>
             <Footer />
         </React.Fragment>
     )

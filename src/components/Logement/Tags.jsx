@@ -13,9 +13,8 @@ export default function Tags(props) {
     return(
         <ul className='tags-list'>
             {tags_list.map((tag, index)=>
-            <li key={index}>{tag}</li>
+            <li className='filtre_item' key={index}>{tag}</li>
             )
-                
             }
         </ul>
     )

@@ -33,9 +33,20 @@
     gap:50px;
     padding-top: 45px;
     padding-bottom: 45px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
     background-color: #F6F6F6;
     border-radius: 25px;
 
+}
+@media screen and (max-width: 768px) {
+    .container_cards{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap:20px;
+        background-color: white;
+    }
+    .background_container{
+        height: 110px;
+    }
 }

@@ -17,7 +17,6 @@ export default function Propos() {
                 </div>
             </main>
             <Footer />
-            
         </React.Fragment>
     )
     

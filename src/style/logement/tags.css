@@ -18,3 +18,9 @@
     align-items: center;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .tags-list{
+        margin-bottom: 20px;
+    }
+}

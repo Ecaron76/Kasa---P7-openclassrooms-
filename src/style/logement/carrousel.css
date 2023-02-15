@@ -1,5 +1,5 @@
 .carrousel {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     height: 415px;
     align-items: center;
@@ -39,3 +39,27 @@
     display: block;
 }
 
+@media screen and (max-width: 768px) {
+    .carrousel {
+        height: 255px;
+    }
+    .carrousel-img{
+        height: 255px;
+    }
+
+    .fleche-gauche {
+        margin-left: 15px;
+        transform:rotate(90deg);
+    }
+    .fleche-droite {
+        margin-right: 15px;
+        right: 0;
+        
+        transform: rotate(270deg);
+    }
+    .fleche {
+        
+        width: 20px;
+        
+    }
+}

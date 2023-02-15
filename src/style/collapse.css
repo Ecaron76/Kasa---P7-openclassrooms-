@@ -1,8 +1,25 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px){
   .collapse{
       width: 100%!important;
 
   }
+  .collapse-header_title {
+    font-size: 13px!important;
+    
+  }
+  .collapse_description {
+    font-size: 12px!important;
+  }
+  .collapse-header{
+    height: 30px!important;
+  }
+  .collapse{
+    margin-bottom: 25px!important;
+  }
+  .fleche-collapse img{
+    width: 20px;
+  }
+  
 }
 
 
@@ -19,18 +36,18 @@
     margin-bottom: 33px;
   }
   
-  .collapse-header {
+.collapse-header {
     align-items: center;
     background-color: #ff6060;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    height: 25%;
-    min-height: 50px;
+    height: 50px;
     width: 100%;
   }
   
   .collapse-header_title {
+    font-size: 24px;
     color: #ffffff;
     margin: 5px 10px;
   }
@@ -55,6 +72,8 @@
     height: 75%;
     padding: 20px;
     line-height: 142.6%;
+    font-size: 18px;
+    font-weight: 400;
     
   }
   .equipement_item{

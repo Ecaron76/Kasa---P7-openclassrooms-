@@ -2,3 +2,9 @@
     display: flex;
     gap: 7px;
 }
+@media screen and (max-width: 768px) {
+    .etoile{
+        width: 15px;
+        height: 15px;
+    }
+}

@@ -26,5 +26,12 @@ main{
     }
 }
 
+@media screen and (max-width: 1250px) {
+    main{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 
 

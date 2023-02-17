@@ -1,0 +1,31 @@
+.host_logement{
+    
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+.host_name{
+    text-align: right;
+    width: 93px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.host_picture{
+    width: 64px;
+    height: 64px;
+    border-radius: 40px;
+}
+@media screen and (max-width: 768px) {
+    .host_picture{
+        width: 36px;
+        height: 36px;
+        
+    }
+    .host_name{
+        
+        font-size: 15px;
+        
+    }
+
+
+}

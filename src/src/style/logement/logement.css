@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    .header-logement{
+        flex-direction: column;
+    }
+    .header-logement_right{
+        flex-direction: row-reverse!important;
+        align-items: center;
+        justify-content: space-between!important;
+        align-self: normal!important;
+    }
+    .description-equipements{
+        display: block!important;
+    }
+
+
+}
+.header-logement{
+    margin-top: 30px;
+    color: #FF6060;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.logement_title{
+    font-size: 36px;
+    font-weight: 500;
+}
+.logement_location{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header-logement_right{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    height: 100%;
+    align-self: center;
+}
+
+.description-equipements{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+

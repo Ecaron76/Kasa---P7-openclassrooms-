@@ -1,0 +1,26 @@
+.tags-list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2%;
+}
+.filtre_item{
+    font-size: 14px;
+    list-style: none;
+    background-color: #FF6060;
+    color: white;
+    border-radius: 10px;
+    width: 115px;
+    min-height: 25px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .tags-list{
+        margin-bottom: 20px;
+    }
+}
